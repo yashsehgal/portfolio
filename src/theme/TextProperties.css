@@ -9,8 +9,8 @@
 //    ?TO REMEMBER: Configure this styling module to every file as a base styling property
 
 //    @author: @yashsehgal
-//    @filename: primary.scss
-//    @filepath: /src/theme/primary.scss
+//    @filename: TextProperties.scss
+//    @filepath: /src/theme/TextProperties.scss
 */
 * {
   margin: 0;
@@ -53,4 +53,4 @@
   -webkit-text-underline-position: under;
   text-underline-position: under;
 }
-/*# sourceMappingURL=primary.css.map */
+/*# sourceMappingURL=TextProperties.css.map */
