@@ -1,0 +1,58 @@
+/**
+*     This file contains the primary colors and structures for the website/webpages,
+*     All the styling properties will be inherited by this file. These files are structured
+*     in the format of primary, secondary and tertiary.
+
+// *  TODO: To specify commonly used properties by the time of development
+// *  TODO: To inherit style code using SCSS and then convert this code file into CSS and CSS.MAP
+
+//    ?TO REMEMBER: Configure this styling module to every file as a base styling property
+
+//    @author: @yashsehgal
+//    @filename: primary.scss
+//    @filepath: /src/theme/primary.scss
+*/
+
+* {
+  margin: 0;
+}
+
+.massive-text {
+  color: rgb(6, 0, 88);
+  font-size: 48px;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+}
+
+.center-text-align {
+  text-align: center;
+  // font-size: 32px;
+}
+
+.heading-text {
+  color: rgb(3, 0, 44);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+.sub-heading-text {
+  color: rgb(126, 126, 126);
+  font-size: 16px;
+  // font-weight:;
+  padding-top: 10px;
+  font-family: 'Open Sans';
+}
+
+.description-text {
+  color: black;
+  font-size: 14px;
+  font-family: 'Open Sans';
+}
+
+.underline-text {
+  -webkit-text-decoration: rgb(229, 255, 0) solid underline;
+  text-decoration: rgb(229, 255, 0) solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+}
