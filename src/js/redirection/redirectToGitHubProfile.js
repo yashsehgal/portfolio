@@ -1,9 +1,9 @@
-const githubYashSehgalURL = "https://www.yashsehgal.com/yashsehgal";
+const githubYashSehgalURL = "https://www.github.com/yashsehgal";
 const githubURL = "https://www.github.com/";
 const username = "yashsehgal";
 
 const redirectToYashSehgalGithub = function redirectToGithub() {
-  window.open(githubYashSehgalURL);
+  window.location.replace(githubYashSehgalURL);
 };
 
 const redirectToGithub = function redirectToGithub() {
