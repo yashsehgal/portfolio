@@ -1,0 +1,38 @@
+/**
+*     This file contains the primary colors and structures for the website/webpages,
+*     All the styling properties will be inherited by this file. These files are structured
+*     in the format of text styles, container styles, header and footer styles.
+
+// *  TODO: To specify commonly used properties by the time of development
+// *  TODO: To inherit style code using SCSS and then convert this code file into CSS and CSS.MAP
+
+//    ?TO REMEMBER: Configure this styling module to every file as a base styling property
+
+//    @author: @yashsehgal
+//    @filename: HeaderProperties.scss
+//    @filepath: /src/theme/HeaderProperties.scss
+*/
+
+.header {
+  background-color: none;
+  padding: 1em;
+  margin: 0;
+  // box-shadow: none;
+}
+
+.header-option-text {
+  color: rgb(6, 0, 88);
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: right;
+  cursor: pointer;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.header-option-button {
+  cursor: pointer;
+  color: rgb(140, 140, 140);
+}

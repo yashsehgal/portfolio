@@ -1,7 +1,7 @@
 /**
 *     This file contains the primary colors and structures for the website/webpages,
 *     All the styling properties will be inherited by this file. These files are structured
-*     in the format of primary, secondary and tertiary.
+*     in the format of text styles, container styles, header and footer styles.
 
 // *  TODO: To specify commonly used properties by the time of development
 // *  TODO: To inherit style code using SCSS and then convert this code file into CSS and CSS.MAP
@@ -12,10 +12,6 @@
 //    @filename: TextProperties.scss
 //    @filepath: /src/theme/TextProperties.scss
 */
-* {
-  margin: 0;
-}
-
 .massive-text {
   color: #060058;
   font-size: 48px;

@@ -1,0 +1,19 @@
+/**
+*     This file contains the primary colors and structures for the website/webpages,
+*     All the styling properties will be inherited by this file. These files are structured
+*     in the format of text styles, container styles, header and footer styles.
+
+// *  TODO: To specify commonly used properties by the time of development
+// *  TODO: To inherit style code using SCSS and then convert this code file into CSS and CSS.MAP
+
+//    ?TO REMEMBER: Configure this styling module to every file as a base styling property
+
+//    @author: @yashsehgal
+//    @filename: PageProperties.scss
+//    @filepath: /src/theme/PageProperties.scss
+*/
+
+* {
+  margin: 0;
+}
+
