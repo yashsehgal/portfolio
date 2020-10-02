@@ -15,9 +15,21 @@
 
 .header {
   background-color: none;
-  padding: 1em;
+  padding: 3em;
   margin: 0;
+  
   // box-shadow: none;
+}
+
+.header-logo {
+  font-family: 'Montserrat';
+  float: left;
+  color: rgb(236, 0, 146);
+  font-stretch: extra-expanded;
+  padding-left: 6em;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .header-option-text {

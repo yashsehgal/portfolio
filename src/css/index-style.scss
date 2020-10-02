@@ -1,0 +1,46 @@
+// body {
+//   background-image: url("/src/assets/design-assets/bg.png");
+//   // backdrop-filter: 0;
+//   background-position: center;
+//   background-size: cover;
+//   // background: no-repeat;
+//   background-repeat: no-repeat;
+//   // width: ;
+//   align-items: center;
+//   // text-align: ;
+//   // align: center;
+// }
+
+#content-01 {
+  padding-top: 8em;
+  padding-left: 7.5em;
+  float: left;
+  background-color: rgb(230, 230, 230);
+  height: 20em;
+  width: 45em;
+  // filter: opacity(20%);
+  position: relative;
+}
+
+#techy-image {
+  margin: 0;
+  float: right;
+  position: relative;
+  filter: blur(0.8px);
+  cursor: inherit;
+}
+
+#bg-rect {
+  float: right;
+  // padding-top: 1em;
+  padding-right: 0em;
+  width: 18em;
+  position: absolute;
+}
+
+human-image {
+  float: right;
+  position: relative;
+  // padding-left: 100em;
+  // padding-right: 100em;
+}

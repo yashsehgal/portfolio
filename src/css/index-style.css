@@ -1,0 +1,31 @@
+#content-01 {
+  padding-top: 8em;
+  padding-left: 7.5em;
+  float: left;
+  background-color: #e6e6e6;
+  height: 20em;
+  width: 45em;
+  position: relative;
+}
+
+#techy-image {
+  margin: 0;
+  float: right;
+  position: relative;
+  -webkit-filter: blur(0.8px);
+          filter: blur(0.8px);
+  cursor: inherit;
+}
+
+#bg-rect {
+  float: right;
+  padding-right: 0em;
+  width: 18em;
+  position: absolute;
+}
+
+human-image {
+  float: right;
+  position: relative;
+}
+/*# sourceMappingURL=index-style.css.map */

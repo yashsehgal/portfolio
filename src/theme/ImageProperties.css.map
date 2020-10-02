@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;;;;;;;;;EAaE;AAEF,AAAA,mBAAmB,CAAC;EAClB,KAAK,EAAE,KAAK;EAEZ,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,QAAQ;CACnB",
+    "sources": [
+        "ImageProperties.scss"
+    ],
+    "names": [],
+    "file": "ImageProperties.css"
+}
