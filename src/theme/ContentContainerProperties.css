@@ -9,12 +9,27 @@
 //    ?TO REMEMBER: Configure this styling module to every file as a base styling property
 
 //    @author: @yashsehgal
-//    @filename: PageProperties.scss
-//    @filepath: /src/theme/PageProperties.scss
+//    @filename: ContentContainerProperties.scss
+//    @filepath: /src/theme/ContentContainerProperties.scss
 */
-
-* {
+.construct-content-container {
+  padding: 10em;
   margin: 0;
-  // margin-bottom: 5px;
+  padding-left: 10em;
+  position: relative;
 }
 
+.sub-content-container {
+  padding: 10em;
+  width: 500px;
+  margin: 0;
+}
+
+.shift-container-left {
+  float: left;
+}
+
+.shift-container-right {
+  float: right;
+}
+/*# sourceMappingURL=ContentContainerProperties.css.map */

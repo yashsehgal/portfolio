@@ -17,7 +17,7 @@
   float: left;
   background-color: rgb(230, 230, 230);
   height: 20em;
-  width: 45em;
+  width: 60em;
   // filter: opacity(20%);
   position: relative;
 }
@@ -38,9 +38,128 @@
   position: absolute;
 }
 
-human-image {
+#human-image {
   float: right;
   position: relative;
   // padding-left: 100em;
   // padding-right: 100em;
+}
+
+#about-me {
+  padding-top: 8em;
+  padding-left: 8em;
+  float: left;
+}
+
+#about-me-desc {
+  padding-top: 10px;
+  color: rgb(117, 117, 117);
+}
+
+// #education-content {
+//   background-color: teal;
+// }
+
+// #education-sub-content {
+//   background-color: black;
+// }
+
+// #edu-title {
+//   padding-top: 0px;
+// }
+
+#education-content {
+  // padding-top: 13em;
+  // // padding-left: 8em;
+  // padding-right: 8em;
+  // // float: right;
+  // float: left;
+  padding-top: 8em;
+  padding-left: 8em;
+  float: left;
+}
+
+#college-details {
+  padding-top: 2em;
+}
+
+#school-details {
+  padding-top: 6em;
+}
+#college-website-link {
+  color: rgb(6, 0, 88);
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: left;
+  padding-top: 2em;
+  cursor: pointer;
+}
+
+#school-website-link {
+  color: rgb(6, 0, 88);
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: left;
+  padding-top: 2em;
+  cursor: pointer;
+}
+
+#skills-content {
+  padding-top: 46em;
+  padding-left: 8em;
+  float: right;
+  padding-right: 12em;
+}
+
+#skill-cpp {
+  padding-top: 2em;
+}
+
+#skill-python {
+  padding-top: 2em;
+}
+
+#skill-ui-design {
+  padding-top: 2em;
+}
+
+#skill-web-frontend {
+  padding-top: 2em;
+}
+
+#tools {
+  padding-top: 98em;
+  padding-left: 8em;
+  // float: right;
+  padding-right: 12em;
+}
+
+#tool-01 {
+  padding-top: 2em;
+}
+
+#tool-02 {
+  padding-top: 2em;
+}
+
+#tool-03 {
+  padding-top: 2em;
+}
+
+#experience-section {
+  padding-top: 16em;
+  padding-left: 8em;
+}
+
+#job-desc {
+  padding-top: 2em;
+  color: rgb(61, 61, 61);
+}
+
+#work-exp-01 {
+  padding-top: 1.4em;
 }

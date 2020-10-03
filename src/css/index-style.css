@@ -4,7 +4,7 @@
   float: left;
   background-color: #e6e6e6;
   height: 20em;
-  width: 45em;
+  width: 60em;
   position: relative;
 }
 
@@ -24,8 +24,110 @@
   position: absolute;
 }
 
-human-image {
+#human-image {
   float: right;
   position: relative;
+}
+
+#about-me {
+  padding-top: 8em;
+  padding-left: 8em;
+  float: left;
+}
+
+#about-me-desc {
+  padding-top: 10px;
+  color: #757575;
+}
+
+#education-content {
+  padding-top: 8em;
+  padding-left: 8em;
+  float: left;
+}
+
+#college-details {
+  padding-top: 2em;
+}
+
+#school-details {
+  padding-top: 6em;
+}
+
+#college-website-link {
+  color: #060058;
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: left;
+  padding-top: 2em;
+  cursor: pointer;
+}
+
+#school-website-link {
+  color: #060058;
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: left;
+  padding-top: 2em;
+  cursor: pointer;
+}
+
+#skills-content {
+  padding-top: 46em;
+  padding-left: 8em;
+  float: right;
+  padding-right: 12em;
+}
+
+#skill-cpp {
+  padding-top: 2em;
+}
+
+#skill-python {
+  padding-top: 2em;
+}
+
+#skill-ui-design {
+  padding-top: 2em;
+}
+
+#skill-web-frontend {
+  padding-top: 2em;
+}
+
+#tools {
+  padding-top: 98em;
+  padding-left: 8em;
+  padding-right: 12em;
+}
+
+#tool-01 {
+  padding-top: 2em;
+}
+
+#tool-02 {
+  padding-top: 2em;
+}
+
+#tool-03 {
+  padding-top: 2em;
+}
+
+#experience-section {
+  padding-top: 16em;
+  padding-left: 8em;
+}
+
+#job-desc {
+  padding-top: 2em;
+  color: #3d3d3d;
+}
+
+#work-exp-01 {
+  padding-top: 1.4em;
 }
 /*# sourceMappingURL=index-style.css.map */

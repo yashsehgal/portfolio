@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;CACV;;AAED,AAAA,aAAa,CAAC;EACZ,gBAAgB,EAAE,OAAkB;CACrC",
+    "sources": [
+        "testingCSSContentContainerProperties.scss"
+    ],
+    "names": [],
+    "file": "testingCSSContentContainerProperties.css"
+}

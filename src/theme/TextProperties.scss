@@ -53,9 +53,110 @@
   text-underline-position: under;
 }
 
+.underline-secondary-text {
+  -webkit-text-decoration: rgb(255, 4, 171) solid underline;
+  text-decoration: rgb(255, 4, 171) solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+}
+
+.massive-hover-underline {
+  position: relative;
+}
+
+.massive-hover-underline:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(229, 255, 0);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.massive-hover-underline:hover:before {
+  visibility: visible;
+  width: 250px;
+  padding-top: 1px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 4, 171);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-underline:hover:before {
+  visibility: visible;
+  width: 250px;  
+  padding: 1px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
 .headline-massive-text {
   color: rgb(6, 0, 88);
   font-size: 70px;
   font-family: 'Montserrat';
   font-weight: bolder;
+}
+
+.non-decorated-link {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: inherit;
+}
+
+#clickable-text {
+  color: rgb(6, 0, 88);
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: right;
+  cursor: pointer;
+}
+
+.link-hover-underline {
+  position: relative;
+}
+
+.link-hover-underline:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(3, 0, 44);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-hover-underline:hover:before {
+  visibility: visible;
+  width: 100px;
+  padding: 1px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
