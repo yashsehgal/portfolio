@@ -130,4 +130,58 @@
 #work-exp-01 {
   padding-top: 1.4em;
 }
+
+#hobbies-section {
+  padding-top: 8em;
+  padding-left: 8em;
+}
+
+#hobby-01 {
+  padding-top: 2em;
+}
+
+#hobby-02 {
+  padding-top: 2em;
+}
+
+#hobby-03 {
+  padding-top: 2em;
+}
+
+#contact-details-section {
+  padding-top: 8em;
+  padding-left: 8em;
+  padding-bottom: 10em;
+}
+
+#email-address-section {
+  padding-top: 2em;
+}
+
+#phone-number-section {
+  padding-top: 2em;
+}
+
+#geo-location-section {
+  padding-top: 2em;
+}
+
+#linkedin-profile-section {
+  padding-top: 2em;
+}
+
+#linkedin-profile {
+  cursor: pointer;
+}
+
+#more-contact-details-button {
+  color: #060058;
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: left;
+  padding-top: 2em;
+  cursor: pointer;
+}
 /*# sourceMappingURL=index-style.css.map */
