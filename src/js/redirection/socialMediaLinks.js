@@ -5,6 +5,8 @@ const youtubeURL = "https://www.youtube.com/channel/UC23yA3SBkV_ehY4H8VSuNVg?";
 const instagramURL = "https://www.instagram.com/yash_sl24";
 const githubURL = "https://www.github.com/yashsehgal";
 const behanceURL = "https://www.behance.net/yashsehgaleee3";
+const redditURL = "https://www.reddit.com/user/sehgalyash";
+const twitterURL = "https://twitter.com/YashSeh90869786";
 
 /// Discord Profile Details
 const discordUsername = "yashsehgal";
@@ -38,6 +40,14 @@ const getDiscordCode = function getDiscordCode() {
   return discordCode;
 };
 
+const getRedditURL = function getRedditURL() {
+  return redditURL;
+};
+
+const getTwitterURL = function TwitterURL() {
+  return twitterURL;
+}
+
 let redirectToLinkedInProfile = function redirectToLinkedInProfile() {
   window.open(getLinkedInURL());
 };
@@ -57,3 +67,11 @@ let redirectToGitHubProfile = function redirectToGitHubProfile() {
 let redirectToBehanceProfile = function redirectToBehanceProfile() {
   window.open(getBehanceURL());
 };
+
+let redirectToRedditProfile = function redirectToRedditProfile() {
+  window.open(getRedditURL());
+}
+
+let redirectToTwitterProfile = function redirectToTwitterProfile() {
+  window.open(getTwitterURL());
+}
