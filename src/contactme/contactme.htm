@@ -3,9 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    ::selection {
+      color: black;
+      background-color: yellow;
+    }
+  </style>
+  <link rel="stylesheet" href="/src/theme/PageProperties.css">
+  <link rel="stylesheet" href="/src/theme/ContentContainerProperties.css">
+  <link rel="stylesheet" href="/src/theme/HeaderProperties.css">
+  <link rel="stylesheet" href="/src/theme/TextProperties.css">
+  <!-- <link rel="stylesheet" href="/src/css/index-style.css"> -->
+  <link rel="stylesheet" href="/src/css/contact-me-style.css">
+  <link rel="stylesheet" href="/src/theme/ImageProperties.css">
+  <link rel="stylesheet" href="/src/theme/FooterProperties.css">
+
+  <!--javascript modules-->
+  <script src="/src/js/redirection/socialMediaLinks.js"></script>
   <title>Connect | Yash Sehgal</title>
 </head>
 <body>
-  <!--code here-->
+  <div id="header-section" class="header">
+    <p id="logo" class="header-logo" onclick=""><a href="#" class="non-decorated-link">Yash Sehgal</a></p>
+    <p id="settings" class="header-option-text" onclick="">Settings</p>
+    <p id="contact-me" class="header-option-text" onclick="redirectToContactMePage();">Contact Me</p>
+    <p id="resume" class="header-option-text">Resume</p>
+    <p id="projects" class="header-option-text" onclick="">Projects</p>
+    <p id="home" class="header-option-text" onclick="">Home</p>
+  </div>
+  <br>
+  <div id="content-01">
+    <p id="headline-text" class="headline-massive-text">Contact Details</p>
+    <!-- <p id="skills" class="sub-heading-text">Software Developer | UI Designer | Computer Science Student</p> -->
+  </div>
+  <div id="image-container-01">
+    <!-- <img src="/src/assets/design-assets/Rectangle 1.png" alt="bg-rect" id="bg-rect">
+    <br>
+    <img src="/src/assets/photo-1504639725590-34d0984388bd.jpg" alt="code-image" id="techy-image" class="image-right-corner"> -->
+    <!-- <br> -->
+    <img src="/src/assets/open-peeps (3).png" alt="human-image" id="human-image" class="image-right-corner">
+  </div>
+  <div id="contact-details-section">
+    <p id="contact-details-title" class="massive-text massive-hover-underline">Contact Details</p>
+    <div id="email-address-section">
+      <p id="contact-detail-name" class="heading-text hover-underline">Email Address</p>
+      <p id="email-address" class="sub-heading-text">
+        <a href="mailto:yashsehgal.work@gmail.com" class="non-decorated-link">yashsehgal.work@gmail.com</a>
+      </p>
+    </div>
+    <div id="phone-number-section">
+      <p id="contact-detail-name" class="heading-text hover-underline">Phone Number</p>
+      <p id="phone-number" class="sub-heading-text">
+        <a href="tel:+919826544591" class="non-decorated-link">+91 98265-44591</a>
+      </p>
+    </div>
+    <div id="geo-location-section">
+      <p id="geo-location-name" class="heading-text hover-underline">Geographical Location</p>
+      <p id="geo-location" class="sub-heading-text">
+        Indore, Madhya Pradesh, India (452002)
+      </p>
+    </div>
+    <div id="linkedin-profile-section">
+      <p id="linkedin-profile-name" class="heading-text hover-underline">LinkedIn Profile</p>
+      <p id="linkedin-profile" class="sub-heading-text" onclick="redirectToLinkedInProfile();">
+        <b>@Yash Sehgal</b>
+        on Linkedin
+      </p>
+    </div>
+    <div id="instagram-profile-section">
+      <p id="instagram-profile-name" class="heading-text hover-underline">Instagram Profile</p>
+      <p id="instagram-profile" class="sub-heading-text" onclick="redirectToInstagramProfile();">
+        <b>@yash_sl24</b>
+        on Instagram
+      </p>
+    </div>
+    <div id="twitter-profile-section">
+      <p id="twitter-profile-name" class="heading-text hover-underline">Twitter Profile</p>
+      <p id="twitter-profile" class="sub-heading-text" onclick="redirectToTwitterProfile();">
+        <b>Yash Sehgal</b>
+        on Twitter
+      </p>
+    </div>
+    <div id="whatsapp-account-section">
+      <p id="whatsapp-account-name" class="heading-text hover-underline">WhatsApp</p>
+      <p id="whatsapp-account" class="sub-heading-text">
+        <b>+91 982654451</b>
+        on WhatsApp
+      </p>
+    </div>
+    <div id="facebook-profile-section">
+      <p id="facebook-profile-name" class="heading-text hover-underline">Facebook</p>
+      <p id="facebook-account" class="sub-heading-text" onclick="redirectToFacebookProfile();">
+        <b>Yash Sehgal</b>
+        on Facebook
+      </p>
+    </div>
+    <div id="youtube-channel-section">
+      <p id="youtube-channel-name" class="heading-text hover-underline">YouTube Channel</p>
+      <p id="youtube-channel" class="sub-heading-text" onclick="redirectToYoutubeChannel();">
+        <b>Yash Sehgal</b>
+        on YouTube
+      </p>
+    </div>
+    <div id="github-profile-section">
+      <p id="github-profile-name" class="heading-text hover-underline">GitHub Account</p>
+      <p id="github-profile" class="sub-heading-text">
+        <b>Yash Sehgal (@yashsehgal)</b>
+        on GitHub
+      </p>
+    </div>
+    <div id="behance-profile-section">
+      <p id="behance-profile-name" class="heading-text hover-underline">Behance Profile</p>
+      <p id="behance-profile" class="sub-heading-text" onclick="redirectToBehanceProfile();">
+        <b>Yash Sehgal</b>
+        on Behance
+      </p>
+    </div>
+    <div id="reddit-profile-section">
+      <p id="reddit-profile-name" class="heading-text hover-underline">Reddit Profile</p>
+      <p id="reddit-profile" class="sub-heading-text" onclick="redirectToRedditProfile();">
+        <b>@sehgalyash</b>
+        on Reddit
+      </p>
+    </div>
+  </div>
 </body>
 </html>
