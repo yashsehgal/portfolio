@@ -15,14 +15,18 @@
   <link rel="stylesheet" href="/src/theme/TextProperties.css">
   <link rel="stylesheet" href="/src/css/index-style.css">
   <link rel="stylesheet" href="/src/theme/ImageProperties.css">
+  <link rel="stylesheet" href="/src/theme/FooterProperties.css">
+  <!--javascript modules-->
   <script src="/src/js/index.js"></script>
+  <script src="/src/js/redirection/socialMediaLinks.js"></script>
   <title>Yash Sehgal | Portfolio</title>
 </head>
 <body>
   <div id="header-section" class="header">
     <p id="logo" class="header-logo" onclick=""><a href="#" class="non-decorated-link">Yash Sehgal</a></p>
     <p id="settings" class="header-option-text" onclick="">Settings</p>
-    <p id="contact-me" class="header-option-text" onclick="">Contact Me</p>
+    <p id="contact-me" class="header-option-text" onclick="redirectToContactMePage();">Contact Me</p>
+    <p id="resume" class="header-option-text">Resume</p>
     <p id="projects" class="header-option-text" onclick="">Projects</p>
     <p id="home" class="header-option-text" onclick="">Home</p>
   </div>
@@ -108,7 +112,8 @@
     <p id="exp-content-title" class="massive-text massive-hover-underline">Work Experience</p>
     <div id="work-exp-01">
       <p id="work-exp-01" class="heading-text hover-underline">User Interface and Experience Designer</p>
-      <p id="work-desc" class="sub-heading-text">At HeyCalls by HeyTech IT Services</p>
+      <p id="work-desc" class="sub-heading-text">At HeyCalls by HeyTech IT Services | <b>Internship</b></p>
+      <!-- <p id="work-type" class="sub-heading-text"><b>Internship</b></p> -->
       <p id="job-desc" class="sub-heading-text">
         <b>About My Role:</b> During this job, I have designed user interfaces for applications and webpages. My role is to design <br>
         an optimal user experience throughout the application. I have used various designing technologies like <br>
@@ -116,11 +121,93 @@
       </p>
     </div>
   </div>
-  <!-- <div id="projects-content">
-    <p id="project-content-title" class="massive-text massive-hover-underline">Projects</p>
+  <!-- <div id="projects-section">
+    <p id="project-section-title" class="massive-text massive-hover-underline">Projects</p>
   </div> -->
-  <div id="footer-section" class="footer">
-    <!--footer section code-->
+  <div id="hobbies-section">
+    <p id="hobbies-section-title" class="massive-text massive-hover-underline">Hobbies</p>
+    <div id="hobby-01">
+      <p id="hobby-name" class="heading-text hover-underline">Designing</p>
+      <p id="hobby-desc" class="sub-heading-text">UI/UX Designing, AutoCAD, Product Designing</p>
+    </div>
+    <div id="hobby-02">
+      <p id="hobby-name" class="heading-text hover-underline">Data Visualization</p>
+      <p id="hobby-desc" class="sub-heading-text">Using Python libraries like Matplotlib, Numpy, Pandas, SciPy</p>
+    </div>
+    <!-- <div id="hobby-03">
+      <p id="hobby-name" class="heading-text hover-underline">***HobbyName***</p>
+      <p id="hobby-desc" class="heading-text">***DescriptionText***</p>
+    </div> -->
   </div>
+  <div id="contact-details-section">
+    <p id="contact-details-title" class="massive-text massive-hover-underline">Contact Details</p>
+    <div id="email-address-section">
+      <p id="contact-detail-name" class="heading-text hover-underline">Email Address</p>
+      <p id="email-address" class="sub-heading-text">
+        <a href="mailto:yashsehgal.work@gmail.com" class="non-decorated-link">yashsehgal.work@gmail.com</a>
+      </p>
+    </div>
+    <div id="phone-number-section">
+      <p id="contact-detail-name" class="heading-text hover-underline">Phone Number</p>
+      <p id="phone-number" class="sub-heading-text">
+        <a href="tel:+919826544591" class="non-decorated-link">+91 98265-44591</a>
+      </p>
+    </div>
+    <div id="geo-location-section">
+      <p id="geo-location-name" class="heading-text hover-underline">Geographical Location</p>
+      <p id="geo-location" class="sub-heading-text">
+        Indore, Madhya Pradesh, India (452002)
+      </p>
+    </div>
+    <div id="linkedin-profile-section">
+      <p id="linkedin-profile-name" class="heading-text hover-underline">LinkedIn Profile</p>
+      <p id="linkedin-profile" class="sub-heading-text" onclick="redirectToLinkedInProfile();">
+          <b>@Yash Sehgal</b>
+        on Linkedin
+      </p>
+    </div>
+    <div id="get-more-details">
+      <p id="more-contact-details-button" class="clickable-text link-hover-underline" onclick="redirectToContactMePage();">Get more details</p>
+    </div>
+  </div>
+  <div id="footer-section" class="footer">
+    <!-- //footer section -->
+    <div id="footer-container-01">
+      <div id="container" class="container">
+        <p id="container-title" class="container-title">Direct Links (Site Map)</p>
+        <div id="container-options" class="container-options">
+          <p id="home-option" class="container-option-text">Home</p>
+          <p id="projects-option" class="container-option-text">Projects</p>
+          <p id="resume-option" class="container-option-text">Resume</p>
+          <p id="contact-option" class="container-option-text">Contact Me</p>
+          <p id="settings-option" class="container-option-text">Settings</p>
+        </div>   <!--closing container-options-->
+      </div>  <!--closing container-->
+    </div>  <!--closing footer-container-01-->
+    <div id="footer-container-02">
+      <div id="container" class="container">
+        <p id="container-title" class="container-title">Direct Links (Site Map)</p>
+        <div id="container-options" class="container-options">
+          <p id="home-option" class="container-option-text">Home</p>
+          <p id="projects-option" class="container-option-text">Projects</p>
+          <p id="resume-option" class="container-option-text">Resume</p>
+          <p id="contact-option" class="container-option-text">Contact Me</p>
+          <p id="settings-option" class="container-option-text">Settings</p>
+        </div>   <!--closing container-options-->
+      </div>  <!--closing container-->
+    </div>  <!--closing footer-container-01-->
+    <div id="footer-container-03">
+      <div id="container" class="container">
+        <p id="container-title" class="container-title">Direct Links (Site Map)</p>
+        <div id="container-options" class="container-options">
+          <p id="home-option" class="container-option-text">Home</p>
+          <p id="projects-option" class="container-option-text">Projects</p>
+          <p id="resume-option" class="container-option-text">Resume</p>
+          <p id="contact-option" class="container-option-text">Contact Me</p>
+          <p id="settings-option" class="container-option-text">Settings</p>
+        </div>   <!--closing container-options-->
+      </div>  <!--closing container-->
+    </div>  <!--closing footer-container-01-->
+  </div> <!--closing footer-section-->
 </body>
 </html>
