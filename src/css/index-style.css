@@ -184,4 +184,58 @@
   padding-top: 2em;
   cursor: pointer;
 }
+
+#home-option {
+  cursor: pointer;
+}
+
+#projects-option {
+  cursor: pointer;
+}
+
+#resume-option {
+  cursor: pointer;
+}
+
+#contact-option {
+  cursor: pointer;
+}
+
+#settings-option {
+  cursor: pointer;
+}
+
+#linkedin-option {
+  cursor: pointer;
+}
+
+#instagram-option {
+  cursor: pointer;
+}
+
+#whatsapp-option {
+  cursor: pointer;
+}
+
+#twitter-option {
+  cursor: pointer;
+}
+
+#reddit-option {
+  cursor: pointer;
+  position: absolute;
+}
+
+#bottom-tagline {
+  text-align: center;
+  padding-top: 1em;
+}
+
+#tagline-text {
+  color: #cecece;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: none;
+}
 /*# sourceMappingURL=index-style.css.map */
