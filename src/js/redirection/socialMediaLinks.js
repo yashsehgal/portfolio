@@ -7,6 +7,7 @@ const githubURL = "https://www.github.com/yashsehgal";
 const behanceURL = "https://www.behance.net/yashsehgaleee3";
 const redditURL = "https://www.reddit.com/user/sehgalyash";
 const twitterURL = "https://twitter.com/YashSeh90869786";
+const facebookURL = "https://www.facebook.com/yash.sehgal.96780";
 
 /// Discord Profile Details
 const discordUsername = "yashsehgal";
@@ -46,7 +47,11 @@ const getRedditURL = function getRedditURL() {
 
 const getTwitterURL = function TwitterURL() {
   return twitterURL;
-}
+};
+
+const getFacebookURL = function getFacebookURL() {
+  return facebookURL;
+};
 
 let redirectToLinkedInProfile = function redirectToLinkedInProfile() {
   window.open(getLinkedInURL());
@@ -70,8 +75,12 @@ let redirectToBehanceProfile = function redirectToBehanceProfile() {
 
 let redirectToRedditProfile = function redirectToRedditProfile() {
   window.open(getRedditURL());
-}
+};
 
 let redirectToTwitterProfile = function redirectToTwitterProfile() {
   window.open(getTwitterURL());
-}
+};
+
+let redirectToFacebookProfile = function redirectToFacebookProfile() {
+  window.open(getFacebookURL());
+};
