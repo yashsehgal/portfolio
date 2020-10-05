@@ -1,6 +1,5 @@
 # portfolio
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/08d975b8416c46808ee2cb6ab4aae875)](https://app.codacy.com/gh/yashsehgal/portfolio?utm_source=github.com&utm_medium=referral&utm_content=yashsehgal/portfolio&utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/yashsehgal/portfolio/badge/master)](https://www.codefactor.io/repository/github/yashsehgal/portfolio/overview/master)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/089a1ce7864b412ea9c3f17ee99ce2a9)](https://www.codacy.com/gh/yashsehgal/portfolio/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=yashsehgal/portfolio&amp;utm_campaign=Badge_Grade)
