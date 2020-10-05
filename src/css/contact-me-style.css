@@ -104,4 +104,15 @@
 #reddit-profile {
   cursor: pointer;
 }
+
+.dropdown {
+  position: relative;
+  display: inline block;
+}
+
+.dropbtn {
+  background-color: none;
+  color: #060058;
+  border: none;
+}
 /*# sourceMappingURL=contact-me-style.css.map */
