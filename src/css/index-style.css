@@ -13,13 +13,13 @@
   float: right;
   position: relative;
   -webkit-filter: blur(0.8px);
-          filter: blur(0.8px);
+  filter: blur(0.8px);
   cursor: inherit;
 }
 
 #bg-rect {
   float: right;
-  padding-right: 0em;
+  /* padding-right: 0; */
   width: 18em;
   position: absolute;
 }

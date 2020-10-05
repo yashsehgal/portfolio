@@ -121,7 +121,7 @@
 .non-decorated-link {
   text-decoration: none;
   -webkit-text-decoration-style: none;
-          text-decoration-style: none;
+  text-decoration-style: none;
   color: inherit;
 }
 
