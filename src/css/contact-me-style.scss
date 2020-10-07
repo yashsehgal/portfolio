@@ -23,8 +23,8 @@
   padding-bottom: 10em;
 }
 
-#email-address-section, #phone-number-section, #geo-location-section, #linkedin-profile-section, #instagram-profile-section, 
-#twitter-profile-section, #whatsapp-account-section, #facebook-profile-section, #youtube-channel-section, #github-profile-section,
+#email-address-section #phone-number-section #geo-location-section #linkedin-profile-section #instagram-profile-section 
+#twitter-profile-section #whatsapp-account-section #facebook-profile-section #youtube-channel-section #github-profile-section
 #behance-profile-section {
   padding-top: 2em;
 }
@@ -79,7 +79,7 @@
   position: absolute;
 }
 
-#instagram-profile, #twitter-profile, #whatsapp-profile, #facebook-profile, #youtube-profile, #github-profile, #behance-profile,
+#instagram-profile #twitter-profile #whatsapp-profile #facebook-profile #youtube-profile #github-profile #behance-profile
 #reddit-profile {
   cursor: pointer;
 }
