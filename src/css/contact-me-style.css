@@ -20,19 +20,9 @@
   padding-bottom: 10em;
 }
 
-#email-address-section {
-  padding-top: 2em;
-}
-
-#phone-number-section {
-  padding-top: 2em;
-}
-
-#geo-location-section {
-  padding-top: 2em;
-}
-
-#linkedin-profile-section {
+#email-address-section, #phone-number-section, #geo-location-section, #linkedin-profile-section, #instagram-profile-section,
+#twitter-profile-section, #whatsapp-account-section, #facebook-profile-section, #youtube-channel-section, #github-profile-section,
+#behance-profile-section {
   padding-top: 2em;
 }
 
@@ -40,67 +30,12 @@
   cursor: pointer;
 }
 
-#instagram-profile-section {
-  padding-top: 2em;
-}
-
-#twitter-profile-section {
-  padding-top: 2em;
-}
-
-#whatsapp-account-section {
-  padding-top: 2em;
-}
-
-#facebook-profile-section {
-  padding-top: 2em;
-}
-
-#youtube-channel-section {
-  padding-top: 2em;
-}
-
-#github-profile-section {
-  padding-top: 2em;
-}
-
-#behance-profile-section {
-  padding-top: 2em;
-}
-
 #reddit-profile-section {
   padding-top: 2em;
   position: absolute;
 }
 
-#instagram-profile {
-  cursor: pointer;
-}
-
-#twitter-profile {
-  cursor: pointer;
-}
-
-#whatsapp-account {
-  cursor: pointer;
-}
-
-#facebook-profile {
-  cursor: pointer;
-}
-
-#youtube-channel {
-  cursor: pointer;
-}
-
-#github-profile {
-  cursor: pointer;
-}
-
-#behance-profile {
-  cursor: pointer;
-}
-
+#instagram-profile, #twitter-profile, #whatsapp-profile, #facebook-profile, #youtube-profile, #github-profile, #behance-profile,
 #reddit-profile {
   cursor: pointer;
 }
@@ -111,7 +46,7 @@
 }
 
 .dropbtn {
-  /* background-color: none; */
+  background-color: none;
   color: #060058;
   border: none;
 }
