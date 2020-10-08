@@ -8,6 +8,8 @@ const behanceURL = "https://www.behance.net/yashsehgaleee3";
 const redditURL = "https://www.reddit.com/user/sehgalyash";
 const twitterURL = "https://twitter.com/YashSeh90869786";
 const facebookURL = "https://www.facebook.com/yash.sehgal.96780";
+const dribbbleURL = "https://dribbble.com/sehgalyash";
+
 
 /// Discord Profile Details
 const discordUsername = "yashsehgal";
@@ -53,6 +55,10 @@ const getFacebookURL = function getFacebookURL() {
   return facebookURL;
 };
 
+const getDribbbleURL = function getDribbbleURL() {
+  return dribbbleURL;
+};
+
 let redirectToLinkedInProfile = function redirectToLinkedInProfile() {
   window.open(getLinkedInURL());
 };
@@ -83,4 +89,8 @@ let redirectToTwitterProfile = function redirectToTwitterProfile() {
 
 let redirectToFacebookProfile = function redirectToFacebookProfile() {
   window.open(getFacebookURL());
+};
+
+let redirectToDribbbleProfile = function redirectToDribbbleProfile() {
+  window.open(getDribbble());
 };

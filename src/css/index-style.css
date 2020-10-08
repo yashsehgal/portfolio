@@ -239,4 +239,17 @@
   text-decoration: none;
 }
 
+#project-profiles {
+  text-align: center;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+#dribbble-logo {
+  width: 65px;
+}
+
+#youtube-logo {
+  width: 70px;
+}
 /*# sourceMappingURL=index-style.css.map */

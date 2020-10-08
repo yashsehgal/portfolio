@@ -18,4 +18,24 @@
   position: relative;
 }
 
+.handle-svg {
+  width: 60px;
+}
+
+.image-icon {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
 /*# sourceMappingURL=ImageProperties.css.map */
