@@ -247,9 +247,19 @@
 
 #dribbble-logo {
   width: 65px;
+  cursor: pointer;
 }
 
 #youtube-logo {
   width: 70px;
+  cursor: pointer;
+}
+
+#github-logo {
+  cursor: pointer;
+}
+
+#behance-logo {
+  cursor: pointer;
 }
 /*# sourceMappingURL=index-style.css.map */
