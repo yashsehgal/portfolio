@@ -1,0 +1,3 @@
+C:/Users/yashs/Desktop/portfolio/cmake-build-debug/CMakeFiles/portfolio.dir
+C:/Users/yashs/Desktop/portfolio/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yashs/Desktop/portfolio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
