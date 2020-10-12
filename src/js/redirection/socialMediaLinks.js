@@ -92,5 +92,5 @@ let redirectToFacebookProfile = function redirectToFacebookProfile() {
 };
 
 let redirectToDribbbleProfile = function redirectToDribbbleProfile() {
-  window.open(getDribbble());
+  window.open(getDribbbleURL());
 };

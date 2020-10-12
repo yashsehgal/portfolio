@@ -1,6 +1,7 @@
 #include "details.h"
 #include "src/error/MessageLogger.h"
 #include <string>
+#include <map>
 using namespace std;
 
 Details::Details() {
@@ -112,36 +113,61 @@ const char * Details::getUserLocation() {
 }
 
 typedef const char **commandList = {(const char *) "\n", (const char *) "username: ", (const char *) this->username,
-                                    (const char *) "\n", (const char *) "fullname: ", (const char *) this->fullname,
-                                    (const char *) "\n", (const char *) "githubUsername: ",
-                                    (const char *) this->githubUsername, (const char *) "\n",
-                                    (const char *) "githubProfileLink: ", (const char *) this->githubProfileLink,
-                                    (const char *) "\n", (const char *) "linkedinUsername: ",
-                                    (const char *) this->linkedinUsername, (const char *) "\n",
-                                    (const char *) "linkedinProfileLink: ", (const char *) this->linkedinProfileLink,
-                                    (const char *) "\n", (const char *) "youtubeChannelName: ",
-                                    (const char *) this->youtubeChannelName, (const char *) "\n",
-                                    (const char *) "youtubeChannelLink: ", (const char *) this->youtubeChannelLink,
-                                    (const char *) "\n", (const char *) "instagramUsername: ",
-                                    (const char *) this->instagarmUsername, (const char *) "\n",
-                                    (const char *) "instagramProfileLink: ", (const char *) this->instagramProfileLink,
-                                    (const char *) "\n", (const char *) "behanceUsername: ",
-                                    (const char *) this->behanceUsername, (const char *) "\n",
-                                    (const char *) "behanceProfileLink: ", (const char *) this->behanceProfileLink,
-                                    (const char *) "\n", (const char *) "facebookUsername: ",
-                                    (const char *) this->facebookUsername, (const char *) "\n",
-                                    (const char *) "facebookProfileLink: ", (const char *) this->facebookProfileLink,
-                                    (const char *) "\n", (const char *) "twitterUsername: ",
-                                    (const char *) this->twitterUsername, (const char *) "\n",
-                                    (const char *) "twitterProfileLink: ", (const char *) this->twitterProfileLink,
-                                    (const char *) "\n", (const char *) "redditUsername: ",
-                                    (const char *) this->redditUsername, (const char *) "\n",
-                                    (const char *) "redditProfileLink: ", (const char *) this->redditProfileLink,
-                                    (const char *) "\n", (const char *) "userPhoneNumber: ",
-                                    (const char *) this->userPhoneNumber, (const char *) "\n",
-                                    (const char *) "userPhoneISDCode: ", (const char *) this->userPhoneISDCode,
-                                    (const char *) "\n", (const char *) "userLocation: ",
-                                    (const char *) this->userLocation};
+(const char *) "\n", (const char *) "fullname: ", (const char *) this->fullname,
+(const char *) "\n", (const char *) "githubUsername: ",
+(const char *) this->githubUsername, (const char *) "\n",
+(const char *) "githubProfileLink: ", (const char *) this->githubProfileLink,
+(const char *) "\n", (const char *) "linkedinUsername: ",
+(const char *) this->linkedinUsername, (const char *) "\n",
+(const char *) "linkedinProfileLink: ", (const char *) this->linkedinProfileLink,
+(const char *) "\n", (const char *) "youtubeChannelName: ",
+(const char *) this->youtubeChannelName, (const char *) "\n",
+(const char *) "youtubeChannelLink: ", (const char *) this->youtubeChannelLink,
+(const char *) "\n", (const char *) "instagramUsername: ",
+(const char *) this->instagarmUsername, (const char *) "\n",
+(const char *) "instagramProfileLink: ", (const char *) this->instagramProfileLink,
+(const char *) "\n", (const char *) "behanceUsername: ",
+(const char *) this->behanceUsername, (const char *) "\n",
+(const char *) "behanceProfileLink: ", (const char *) this->behanceProfileLink,
+(const char *) "\n", (const char *) "facebookUsername: ",
+(const char *) this->facebookUsername, (const char *) "\n",
+(const char *) "facebookProfileLink: ", (const char *) this->facebookProfileLink,
+(const char *) "\n", (const char *) "twitterUsername: ",
+(const char *) this->twitterUsername, (const char *) "\n",
+(const char *) "twitterProfileLink: ", (const char *) this->twitterProfileLink,
+(const char *) "\n", (const char *) "redditUsername: ",
+(const char *) this->redditUsername, (const char *) "\n",
+(const char *) "redditProfileLink: ", (const char *) this->redditProfileLink,
+(const char *) "\n", (const char *) "userPhoneNumber: ",
+(const char *) this->userPhoneNumber, (const char *) "\n",
+(const char *) "userPhoneISDCode: ", (const char *) this->userPhoneISDCode,
+(const char *) "\n", (const char *) "userLocation: ",
+(const char *) this->userLocation};
+
+
+std::map<char *, const char *> commandList = {
+  {"username", this->username},
+  {"fullname", this->fullname},
+  {"github-username", this->githubUsername},
+  {"github-profile-link", this->githubProfileLink},
+  {"linkedin-username", this->linkedinUsername},
+  {"linkedin-profile-link", this->linkedProfileLink},
+  {"youtube-channel-name", this->youtubeChannelName},
+  {"youtube-channel-link", this->youtubeChannelLink},
+  {"instagram-username", this->instagramUsername},
+  {"instagram-profile-link", this->instagramProfileLink},
+  {"behance-username", this->behanceUsername},
+  {"behance-profile-link", this->behanceProfileLink},
+  {"facebook-username", this->facebookUsername},
+  {"facebook-profile-link", this->facebookProfileLink},
+  {"twitter-username", this->twitterUsername},
+  {"twitter-profile-link", this->twitterSocialLink},
+  {"reddit-username", this->redditUsername},
+  {"reddit-profile-link", this->redditProfileLink},
+  {"userPhoneNumber", this->userPhoneLink},
+  {"userPhoneISDCode", this->userPhoneISDCode},
+  {"userLocation", this->userLocation}
+};
 
 const char * Details::getDetails() {
 

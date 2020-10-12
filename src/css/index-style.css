@@ -262,4 +262,25 @@
 #behance-logo {
   cursor: pointer;
 }
+
+#certificate-01-link {
+  color: #060058;
+  font-weight: bold;
+  font-size: 14px;
+  font-stretch: extra-expanded;
+  font-family: 'Montserrat';
+  float: left;
+  padding-top: 2em;
+  cursor: pointer;
+}
+
+#certification-courses-section {
+  padding-top: 8em;
+  padding-left: 8em;
+  padding-bottom: 6em;
+}
+
+#certificate-01 {
+  padding-top: 2em;
+}
 /*# sourceMappingURL=index-style.css.map */

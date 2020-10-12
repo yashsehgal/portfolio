@@ -10,4 +10,4 @@ set(CMAKE_INCLUDE_PATH / portfolio/src/helpers/details.h)
 #set(CMAKE_INCLUDE_PATH / portfolio)
 
 #include_directories(rock-paper-scissors-cpp-version game_logic.h)
-add_executable(portfolio src/helpers/details.cpp)
+add_executable(portfolio src/helpers/details.cc)

@@ -1,0 +1,3 @@
+C:/Users/yashs/Desktop/portfolio/build/CMakeFiles/portfolio.dir
+C:/Users/yashs/Desktop/portfolio/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/yashs/Desktop/portfolio/build/CMakeFiles/ZERO_CHECK.dir
