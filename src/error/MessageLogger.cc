@@ -55,7 +55,7 @@ void MessageLogger::getPortName() {
 void MessageLogger::updatePort() {
   if ((this->title != nullptr) && this->message != nullptr)) {
     this->portAccess = true;
-  } : abortMessageLogger(abortCommand = true);
+  } else abortMessageLogger(abortCommand = true);
 }
 
 void MessageLogger::abortMessageLogger(bool abortCommand = false) {
