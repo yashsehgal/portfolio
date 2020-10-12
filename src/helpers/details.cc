@@ -170,7 +170,6 @@ std::map<char *, const char *> commandList = {
 };
 
 const char * Details::getDetails() {
-
   // ! Write unit tests for this feature
   // ? Also, write module and final features test for this method in the test package of this file
 
