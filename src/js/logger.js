@@ -33,7 +33,14 @@ class Logger {
       this.messageTitle = messageTitle;
     }
   }
+  
   getMessageTitle() {
     return this.messageTitle;
   };
+
+  setMessageText(messageText) {
+    if (this.portAccess) {
+      /// code here...
+    }
+  }
 };
