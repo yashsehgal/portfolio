@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "404-style.scss"
+    ],
+    "names": [],
+    "file": "404-style.css"
+}

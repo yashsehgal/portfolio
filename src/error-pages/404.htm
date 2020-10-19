@@ -3,9 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+  ::selection {
+    color: black;
+    background-color: yellow;
+  }
+  </style>
+  <link rel="stylesheet" href="/src/theme/PageProperties.css">
+  <link rel="stylesheet" href="/src/theme/ContentContainerProperties.css">
+  <link rel="stylesheet" href="/src/theme/HeaderProperties.css">
+  <link rel="stylesheet" href="/src/theme/TextProperties.css">
+  <link rel="stylesheet" href="/src/css/index-style.css">
+  <link rel="stylesheet" href="/src/theme/ImageProperties.css">
+  <link rel="stylesheet" href="/src/theme/FooterProperties.css">
+  <link rel="stylesheet" href="/src/css/404-style.css">
+  <!--linking javascript-->
+  <script src="/src/js/redirection/socialMediaLinks.js"></script>
+  <script src="/src/js/redirection/redirectToMainPage.js"></script>
   <title>404 | Page Not Found</title>
 </head>
 <body>
+  <div id="header-section" class="header">
+    <p id="logo" class="header-logo" onclick=""><a href="#" class="non-decorated-link">Yash Sehgal</a></p>
+    <p id="settings" class="header-option-text" onclick="">Settings</p>
+    <p id="contact-me" class="header-option-text" onclick="redirectToContactMePage();">Contact Me</p>
+    <p id="resume" class="header-option-text">Resume</p>
+    <p id="projects" class="header-option-text" onclick="">Projects</p>
+    <p id="home" class="header-option-text" onclick="">Home</p>
+  </div>
+  <br>
+  <p id="title-text" class="headline-massive-text">404 Page Not Found</p>
   
 </body>
 </html>
