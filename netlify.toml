@@ -1,9 +1,0 @@
-[build]
-  publish = "/opt/build/repo/build"
-  base = "/index.htm"
-  command = "npm run build"
-
-[[redirects]]
-  from = "/*"
-  to = "\index.htm"
-  status = 404
