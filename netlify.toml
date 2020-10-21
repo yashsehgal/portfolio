@@ -1,7 +1,6 @@
 [build]
-  publish = "/opt/build/repo/build"
-  base = "/index.htm"
-  command = "npm run build"
+  base = "index.htm"
+  command = "npm build"
 
 [[redirects]]
   from = "/*"
