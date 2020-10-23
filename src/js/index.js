@@ -5,7 +5,7 @@ const pythonBasicCertificateLink = "https://www.hackerrank.com/certificates/5d25
 /// this path string will be changed with the actual web URL after this website will be uploaded.
 /// contactMePagePath, stores the relative path of contactme.htm page (HTML File)...
 
-const contactMePagePath = "src/contactme/contactme.htm";
+const contactMePagePath = "contactme.htm";
 
 const redirectToSchoolWebsite = function redirectToSchoolWebsite() {
   window.open(schoolWebsite);
