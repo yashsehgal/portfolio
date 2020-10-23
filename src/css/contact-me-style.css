@@ -115,4 +115,17 @@
   color: #060058;
   border: none;
 }
+
+#tagline-text {
+  color: #cecece;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+#bottom-tagline {
+  text-align: center;
+  padding-top: 1em;
+}
 /*# sourceMappingURL=contact-me-style.css.map */
